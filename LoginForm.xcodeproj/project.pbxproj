@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42087001D63659E00708169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42086FF1D63659E00708169 /* AppDelegate.swift */; };
+		F42087021D63659E00708169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42087011D63659E00708169 /* ViewController.swift */; };
+		F42087051D63659E00708169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42087031D63659E00708169 /* Main.storyboard */; };
+		F42087071D63659E00708169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42087061D63659E00708169 /* Assets.xcassets */; };
+		F420870A1D63659E00708169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42087081D63659E00708169 /* LaunchScreen.storyboard */; };
+		F42087131D63DEAE00708169 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F42087121D63DEAE00708169 /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F42086FC1D63659E00708169 /* LoginForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42086FF1D63659E00708169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42087011D63659E00708169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F42087041D63659E00708169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42087061D63659E00708169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42087091D63659E00708169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F420870B1D63659E00708169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42087121D63DEAE00708169 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42086F91D63659E00708169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42086F31D63659E00708169 = {
+			isa = PBXGroup;
+			children = (
+				F42086FE1D63659E00708169 /* LoginForm */,
+				F42086FD1D63659E00708169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42086FD1D63659E00708169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42086FC1D63659E00708169 /* LoginForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42086FE1D63659E00708169 /* LoginForm */ = {
+			isa = PBXGroup;
+			children = (
+				F42087111D63DEA500708169 /* Resource */,
+				F42086FF1D63659E00708169 /* AppDelegate.swift */,
+				F42087011D63659E00708169 /* ViewController.swift */,
+				F42087031D63659E00708169 /* Main.storyboard */,
+				F42087061D63659E00708169 /* Assets.xcassets */,
+				F42087081D63659E00708169 /* LaunchScreen.storyboard */,
+				F420870B1D63659E00708169 /* Info.plist */,
+			);
+			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		F42087111D63DEA500708169 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F42087121D63DEAE00708169 /* background.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42086FB1D63659E00708169 /* LoginForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F420870E1D63659E00708169 /* Build configuration list for PBXNativeTarget "LoginForm" */;
+			buildPhases = (
+				F42086F81D63659E00708169 /* Sources */,
+				F42086F91D63659E00708169 /* Frameworks */,
+				F42086FA1D63659E00708169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginForm;
+			productName = LoginForm;
+			productReference = F42086FC1D63659E00708169 /* LoginForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42086F41D63659E00708169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GDG;
+				TargetAttributes = {
+					F42086FB1D63659E00708169 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F42086F71D63659E00708169 /* Build configuration list for PBXProject "LoginForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42086F31D63659E00708169;
+			productRefGroup = F42086FD1D63659E00708169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42086FB1D63659E00708169 /* LoginForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42086FA1D63659E00708169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F420870A1D63659E00708169 /* LaunchScreen.storyboard in Resources */,
+				F42087131D63DEAE00708169 /* background.jpg in Resources */,
+				F42087071D63659E00708169 /* Assets.xcassets in Resources */,
+				F42087051D63659E00708169 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42086F81D63659E00708169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42087021D63659E00708169 /* ViewController.swift in Sources */,
+				F42087001D63659E00708169 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F42087031D63659E00708169 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42087041D63659E00708169 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42087081D63659E00708169 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42087091D63659E00708169 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F420870C1D63659E00708169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F420870D1D63659E00708169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F420870F1D63659E00708169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdg.demo.LoginForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F42087101D63659E00708169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdg.demo.LoginForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42086F71D63659E00708169 /* Build configuration list for PBXProject "LoginForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F420870C1D63659E00708169 /* Debug */,
+				F420870D1D63659E00708169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F420870E1D63659E00708169 /* Build configuration list for PBXNativeTarget "LoginForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F420870F1D63659E00708169 /* Debug */,
+				F42087101D63659E00708169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42086F41D63659E00708169 /* Project object */;
+}
